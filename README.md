@@ -30,7 +30,7 @@ To setup this project on your computer:
 
 To learn more about Next.js and Fumadocs, take a look at the following resources:
 
-* [Elementique](https://nextjs.org/package/elementique) - learn about Elementique.
+* [Elementique](https://www.npmjs.com/package/elementique) - learn about Elementique.
 * [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 
 ## Contributing

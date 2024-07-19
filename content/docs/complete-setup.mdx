@@ -1,0 +1,95 @@
+---
+title: Quick Start
+description: Installation and usage guide for easy-docs.
+---
+
+## Installation Guide
+
+Follow these steps to get started with Elementique:
+
+Install the library directly using npm:
+```bash
+npm install elementique
+```
+
+
+### Vite
+
+1. Setup a new Vite+React application using Typescript:
+  ```bash
+  npm create vite@latest --typescript
+  ```
+
+2. Install Elementique
+  ```bash
+  npm install elementique
+  ```
+
+3. Import and use Elementique components
+  ```tsx
+  import { Navbar } from 'elementique';
+
+  function App() {
+    return (
+      <>
+        <Navbar 
+          title='Navbar' 
+          bg='royalblue' 
+          color='#000' 
+          fontsProperty={{size: "14px", weight: 600}} 
+          links={[
+            {
+              label: "Home", href: "/",
+            },
+            {
+              label: "About", href: "/about",
+            },
+          ]} 
+        />
+      </>
+    )
+  }
+
+  export default App;
+  ```
+
+### NextJS
+
+1. Setup a new Next JS application using Typescript:
+  ```bash
+  npx create-next-app@latest --typescript
+  ```
+
+2. Install Elementique
+  ```bash
+  npm install elementique
+  ```
+
+
+3. Import and use Elementique components
+  ```tsx
+  import { Navbar } from 'elementique';
+
+  function App() {
+    return (
+      <>
+        <Navbar 
+          title='Navbar' 
+          bg='royalblue' 
+          color='#000' 
+          fontsProperty={{size: "14px", weight: 600}} 
+          links={[
+            {
+              label: "Home", href: "/",
+            },
+            {
+              label: "About", href: "/about",
+            },
+          ]} 
+        />
+      </>
+    )
+  }
+
+  export default App;
+  ```

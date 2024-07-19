@@ -1,0 +1,62 @@
+---
+title: Input
+description: Input component
+---
+
+To import and render the Input component, use the following demo code.
+
+### Usage
+
+#### Normal
+
+```tsx
+import { Input } from 'elementique';
+
+function App() {
+    return (
+    <>
+        <Input 
+            variant='primary' 
+            type='text' 
+            placeholder='Enter text'
+        />
+    </>
+    )
+}
+
+export default App;
+```
+
+#### Float
+
+```tsx
+import { Input } from 'elementique';
+
+function App() {
+    return (
+    <>
+        <Input 
+            variant='float' 
+            type='text' 
+            placeholder='Enter text'
+        />
+    </>
+    )
+}
+
+export default App;
+```
+
+### Props
+
+**variant** - <em>primary</em> or <em>float</em>    
+**name** - This value will be passed to the id and name tags of input    
+**type** - This prop accepts the type of input ex: <em>text</em>, <em>email</em>    
+**width** - Custom width of the input    
+**maxWidth** - Maximum width of the input    
+**p** - Custom padding for the input as number    
+**placeholder** - This props accepts the prop to be displayed as the placeholder for the input    
+**setValue** - This prop is for the React useState <em>setValue</em> function to change the <em>value</em>    
+**value** - The value entered inside the input can be accessed using this prop    
+**border** - Custom border for the input box    
+**fontsProperty** - Custom fontsProperty is to be entered here in the form of an object: \{ size: string, weight: number, family: string \}      

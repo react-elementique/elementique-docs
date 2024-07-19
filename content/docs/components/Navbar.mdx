@@ -1,0 +1,46 @@
+---
+title: Navbar
+description: Template built for documentations
+---
+
+To import and render the Navbar component, use the following demo code.
+
+### Usage
+
+```tsx
+import { Navbar } from 'elementique';
+
+function App() {
+    return (
+    <>
+        <Navbar 
+            title='Navbar' 
+            bg='royalblue' 
+            color='#000' 
+            fontsProperty={{size: "14px", weight: 600}} 
+            links={[
+                {
+                label: "Home", href: "/",
+                },
+                {
+                label: "About", href: "/about",
+                },
+            ]} 
+        />
+    </>
+    )
+}
+
+export default App;
+```
+
+### Props
+
+**title** -    
+**bg** -    
+**color** -    
+**type** -     
+**logo** -     
+**links** -     
+**fontsProperty** -    
+**className** -     

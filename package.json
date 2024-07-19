@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "elementique": "^1.0.6",
     "fumadocs-core": "12.5.2",
     "fumadocs-mdx": "8.2.33",
     "fumadocs-ui": "12.5.2",

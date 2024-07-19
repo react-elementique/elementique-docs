@@ -1,0 +1,59 @@
+---
+title: Button
+description: Button component
+---
+
+To import and render the Button component, use the following demo code.
+
+### Usage
+
+#### Normal
+
+```tsx
+import { Button } from 'elementique';
+
+function App() {
+    return (
+    <>
+        <Button
+            size={"small"}
+            text={"Button"}
+            onClick={() => console.log("Clicked")}
+        />
+    </>
+    )
+}
+
+export default App;
+```
+
+#### Outline
+
+```tsx
+import { Button } from 'elementique';
+
+function App() {
+    return (
+    <>
+        <Button
+            size={"small"}
+            text={"Button"}
+            onClick={() => console.log("Clicked")}
+            outline={true}
+        />
+    </>
+    )
+}
+
+export default App;
+```
+
+### Props
+
+**text** _`() => void`_ - A string that represents the text content of the button.    
+**primary** - A boolean indicating whether the button should have a primary styling or not. Typically, a primary button stands out as the main action in a user interface.    
+**outline** - A boolean indicating whether the button should have an outline styling or not.     
+**disabled** - A boolean indicating whether the button should be disabled or not. When disabled, the button cannot be clicked or interacted with.    
+**size** - A string with one of three possible values: "small," "medium," or "large." It defines the size or dimensions of the button.    
+**onClick** - A function that is called when the button is clicked. It receives a MouseEventHandler for handling the click event on the button element.    
+**bg** - The background color of the button can be passed to this prop    
